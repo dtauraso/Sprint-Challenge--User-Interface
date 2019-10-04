@@ -71,7 +71,7 @@ p {
     margin: 0 auto;
 }
 .container-about-page {
-    width: 870px;
+    width: 900px;
     margin: 0 auto;
 }
 
@@ -85,7 +85,7 @@ p {
     margin-top: 20px;
     margin-left:  0px;
     margin-right:  0px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 
 }
 
@@ -127,7 +127,7 @@ nav a {
 }
 .top-content .text-container {
     width: 48%;
-    padding: 10% 10%;
+    padding: 3% 2%;
     padding-bottom: 20px;  
 }
 
@@ -229,5 +229,45 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+#box1 {
+    background-color: teal;
+}
+#box2 {
+    background-color: gold;
+
+}
+#box3 {
+    background-color: cadetblue;
+
+}
+#box4 {
+    background-color: coral;
+
+}
+#box5 {
+    background-color:crimson;
+
+}
+#box6 {
+    background-color:forestgreen;
+
+}
+#box7 {
+    background-color:darkorchid;
+
+}
+#box8 {
+    background-color:hotpink;
+
+}
+#box9 {
+    background-color:indigo;
+
+}
+#box10 {
+    background-color: dodgerblue;
+
 }
 
