@@ -70,7 +70,38 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+.container-about-page {
+    width: 900px;
+    margin: 0 auto;
+}
 
+.full-nav-bar {
+    width: 790px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* border: 1px dashed black; */
+    margin-top: 20px;
+    margin-left:  0px;
+    margin-right:  0px;
+    margin-bottom: 40px;
+
+}
+
+ nav {
+     
+    width: 590px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    /* border: 1px dashed black; */
+} 
+nav a {
+    color: black;
+    text-decoration: none;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -78,11 +109,62 @@ p {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
+.top-content-about {
+    /* width: 92%; */
+    padding: 0 0;
+    padding-bottom: 20px;  
 
+}
+.top-content-about img {
+    width: 100%;
+    padding: 0px 0px;
+
+}
+.top-content-about .text-container {
+    padding: 20px 20px;
+    border-bottom: 1px dashed black;
+
+}
 .top-content .text-container {
     width: 48%;
-    padding: 0 1%;
+    padding: 3% 2%;
     padding-bottom: 20px;  
+}
+
+.middle-content-about {
+    padding: 0px 20px;
+    margin: 0px auto;    
+}
+.services {
+    /* width: 760px; */
+    padding: 0px 0px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.service {
+    width: 370px;
+    border-bottom: 1px dashed black;
+    /* border: 1px solid black; */
+    padding: 10px 0px;
+    margin-bottom: 35px;
+
+}
+.service h2 {
+    margin: 10px 0px;
+}
+.service p {
+    margin: 10px 0px;
+}
+.service button {
+    margin: 10px 0px;
+    width: 30%;
+    height: 40px;
+    border-radius: 10px;
+    border: 3px solid black;
+    font-size: 15px;
 }
 
 .middle-content {
@@ -126,6 +208,10 @@ p {
     padding-right: 0;
 }
 
+.bottom-content-about {
+    margin-bottom: 30px;
+    /* width: 95%; */
+}
 footer {
     width: 100%;
     background: black;
@@ -144,3 +230,44 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+#box1 {
+    background-color: teal;
+}
+#box2 {
+    background-color: gold;
+
+}
+#box3 {
+    background-color: cadetblue;
+
+}
+#box4 {
+    background-color: coral;
+
+}
+#box5 {
+    background-color:crimson;
+
+}
+#box6 {
+    background-color:forestgreen;
+
+}
+#box7 {
+    background-color:darkorchid;
+
+}
+#box8 {
+    background-color:hotpink;
+
+}
+#box9 {
+    background-color:indigo;
+
+}
+#box10 {
+    background-color: dodgerblue;
+
+}
+
